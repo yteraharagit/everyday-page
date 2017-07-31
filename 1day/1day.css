@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background: #98d8f2;
+    color: whitesmoke;
+    top: 0;
+    left: 0;
+}
+
+.yscr,
+.xscr {
+    text-align: center;
+    width: 100%;
+}
+
+.yscr h2,
+.xscr h2 {
+    width: 30%;
+    background: #cccccc;
+    display: block;
+    border-left: double 8px blue; 
+    border-bottom: 3px solid #ff5ce0;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.just-src {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-style: italic;
+    background: linear-gradient(transparent 70%, #4ec4d3 90%);
+    font-size: 20px;
+    margin-bottom: 1.5em;
+}
+
+.lorem {
+    width: 40%;
+    background: #eaeaea;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+    overflow-y: scroll;
+    padding: 1em;
+}
+
+.kenji {
+    width: 40%;
+    background: #eaeaea;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 1em;
+}
