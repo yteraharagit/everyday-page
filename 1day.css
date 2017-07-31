@@ -16,14 +16,14 @@ header {
 }
 
 .yscr,
-.xscr {
+.xscr  {
     text-align: center;
     width: 100%;
 }
 
 .yscr h2,
-.xscr h2 {
-    width: 30%;
+.xscr h2  {
+    width: 40%;
     background: #cccccc;
     display: block;
     border-left: double 8px blue; 
@@ -63,4 +63,41 @@ header {
     overflow-x: auto;
     white-space: nowrap;
     padding: 1em;
+}
+
+.box {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.box1 {
+    width: 50%;
+    background: #73b8fc;
+}
+
+.box2 {
+    width: 50%;
+    background: #f47e7e;   
+}
+
+.box1 h2,
+.box2 h2 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-bottom: 3px solid black;
+    margin-bottom: 1em;
+}
+
+.box1 p {
+    height: 130px;
+    overflow-y: scroll;
+}
+
+.box2 p {
+    line-height: 150px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    
 }
